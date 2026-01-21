@@ -36,6 +36,7 @@ runs:
         owner: ${{ github.repository_owner }}
         repo-name: ${{ github.event.repository.name }}
         branch: ${{ github.head_ref }}
+        use-leading-zeros: true
         token: ${{ inputs.token }}
 
     - name: Set Build Status
