@@ -29,7 +29,7 @@ runs:
   steps:
     - name: Get Next Semantic Version Number
       id: new-tag
-      uses: lee-lott-actions/get-next-semantic-version-number@v1
+      uses: lee-lott-actions/get-next-semantic-version-number@v2
       with:
         prerelease: ${{ inputs.prerelease }}
         prerelease-identifier: ${{ inputs.prerelease-suffix }}
